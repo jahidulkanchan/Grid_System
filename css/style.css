@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.box{
+  background-color: #a7a7ff;
+  margin: 20px;
+}
+.box-items{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
